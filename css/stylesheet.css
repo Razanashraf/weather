@@ -1,0 +1,195 @@
+a {
+    color: inherit;
+    cursor: pointer;
+}
+
+nav {
+    padding-block: 40px;
+    background-color: #1e202b;
+}
+
+.title-one {
+    font-size: 16px;
+}
+
+.title-two {
+    font-size: 12px;
+}
+
+nav a img {
+    width: 64px;
+    height: 38px;
+    margin-right: 10px;
+}
+
+.active {
+    color: #009ad8;
+    border: #009ad8 2px solid;
+    border-radius: 20px;
+}
+
+nav ul li:hover {
+    color: #009ad8;
+    border: #009ad8 2px solid;
+    border-radius: 20px;
+}
+
+nav ul li {
+    margin-inline: 20px;
+    padding-inline: 15px;
+}
+
+body {
+    background-color: #1e202b;
+}
+
+.hero {
+    height: 50vh;
+    background-image: url(../weatherpics/background.png);
+}
+
+.find-location {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.find-input {
+    background: #1e202b;
+    border: #1e202b;
+}
+
+.find-input:focus {
+    background: #1e202b;
+    border: #1e202b;
+    z-index: 1 !important;
+}
+
+.form-control {
+    color: rgb(165, 165, 165) !important; 
+}
+
+.find-input {
+    color: rgb(165, 165, 165);
+}
+
+.form-control {
+    border: none;
+}
+.form-control::placeholder {
+    color: rgb(165, 165, 165);
+}
+
+.find-btn {
+    left: 88%;
+    top: 16%;
+    z-index: 5 !important;
+}
+
+.row {
+    height: 40vh;
+}
+
+.weather-card-header-middle {
+    background-color: rgb(33, 36, 50);
+}
+
+.weather-card-header {
+    background-color: #2d3041;
+}
+
+.cardss {
+    background-color: #1e202b;
+    height: 340px;
+}
+
+.weather-container {
+    top: -150px;
+    left: 50px;
+}
+
+.today {
+    background-color: #32364d;
+    border-top-left-radius: 20px;
+}
+.weather-card-header {
+    border-top-left-radius: 20px;
+}
+.weather-card-header-right {
+    border-top-right-radius: 20px;
+    background-color: #2d3041;
+}
+
+.tomorrow {
+    background-color: #1e202b;
+}
+
+.after-tomorrow {
+    background-color: #32364d;
+    border-top-right-radius: 20px;
+}
+
+.footer {
+    background-color: #2d3041;
+    height: 30vh;
+}
+
+.email-input {
+    background: #1e202b;
+    border: #1e202b;
+    padding-block: 15px;
+    padding-inline:5px ;
+    width: 650px;
+    border-radius: 10px;
+}
+.email-input:focus {
+    border: #1e202b;
+}
+
+.sub-btn {
+    border-radius: 10px;
+    padding-block: 10px;
+    position: absolute;
+    left: 47.5%;
+    margin-top: 4px;
+}
+.input-div {
+    margin-left: 120px;
+}
+.footer-p {
+    font-size: 13.5px;
+}
+.social {
+    margin-left: 120px; ;
+}
+.fa-brands {
+    padding: 15px;
+    margin: 2px;
+    font-size: 25px;
+    color: #3f72bd;
+    background-color: #1e202b;
+    height: fit-content;
+    border-radius: 50%;
+    transition: all 300ms;
+}
+.fa-brands:hover {
+    background-color:#3f72bd ;
+    color: white;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #3f72bd; }
+.btn-primary:hover {
+    background-color: #3f72bd;
+}
+
+.degree-today{
+    font-size: 60px;
+}
+.weather-card-content-two {
+    margin-top: 18%;
+}
+.condition {
+    color: #3f72bd;
+}
